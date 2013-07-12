@@ -37,8 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 408.5, 211.0, 80.0, 35.0 ],
-					"presentation_rect" : [ 408.0, 211.0, 0.0, 0.0 ]
+					"patching_rect" : [ 408.5, 211.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -66,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 1.5, 267.5, 487.0, 21.0 ],
-					"text" : "jit.gl.videoplane @transform_reset 2 @texture #1 @layer #2"
+					"text" : "jit.gl.videoplane @scale 1.33 1 1 @texture #1 @layer #2"
 				}
 
 			}
