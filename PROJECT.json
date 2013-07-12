@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
-		"created" : "",
-		"lastopened" : "",
-		"lastsaved" : "2013-07-10T18:48:52",
+		"created" : "2013-07-12T15:47:33",
+		"lastopened" : "2013-07-12T16:06:59",
+		"lastsaved" : "2013-07-12T16:08:19",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -13,28 +13,24 @@
 	}
 ,
 	"paths" : 	{
-		"/Users/reno/Movies/hap p/dos.mov" : 		{
+		"system:/Users/reno/Movies/hap p/dos.mov" : 		{
 			"name" : "dos.mov",
-			"type" : "mov"
+			"type" : "MooV"
 		}
 ,
-		"/Users/reno/Movies/hap p/quatro.mov" : 		{
+		"system:/Users/reno/Movies/hap p/quatro.mov" : 		{
 			"name" : "quatro.mov",
-			"type" : "mov"
+			"type" : "MooV"
 		}
 ,
-		"/Users/reno/Movies/hap p/tres.mov" : 		{
+		"system:/Users/reno/Movies/hap p/tres.mov" : 		{
 			"name" : "tres.mov",
-			"type" : "mov"
+			"type" : "MooV"
 		}
 ,
-		"/Users/reno/Movies/hap p/uno.mov" : 		{
+		"system:/Users/reno/Movies/hap p/uno.mov" : 		{
 			"name" : "uno.mov",
-			"type" : "mov"
-		}
-,
-		"system:/Users/reno/Movies/" : 		{
-			"type" : "fold"
+			"type" : "MooV"
 		}
 
 	}
