@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
-		"created" : "2013-07-12T15:47:33",
-		"lastopened" : "2013-07-12T16:06:59",
-		"lastsaved" : "2013-07-12T16:08:19",
+		"created" : "2013-07-15T20:21:02",
+		"lastopened" : "2013-07-16T00:20:27",
+		"lastsaved" : "2013-07-16T00:40:40",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -13,37 +13,906 @@
 	}
 ,
 	"paths" : 	{
-		"system:/Users/reno/Movies/hap p/dos.mov" : 		{
-			"name" : "dos.mov",
-			"type" : "MooV"
+		"system:/Users/reno/GITs/hap-layer/nodefiles/hap.json" : 		{
+			"name" : "hap.json",
+			"type" : "TEXT",
+			"tags" : "node"
 		}
 ,
-		"system:/Users/reno/Movies/hap p/quatro.mov" : 		{
-			"name" : "quatro.mov",
-			"type" : "MooV"
+		"system:/Users/reno/Movies/hap p/dos.mov" : 		{
+			"name" : "dos.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
 		}
 ,
 		"system:/Users/reno/Movies/hap p/tres.mov" : 		{
 			"name" : "tres.mov",
-			"type" : "MooV"
+			"type" : "MooV",
+			"tags" : "/hap/1"
 		}
 ,
 		"system:/Users/reno/Movies/hap p/uno.mov" : 		{
 			"name" : "uno.mov",
-			"type" : "MooV"
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"system:/Users/reno/Movies/hap" : [ "p/uno.mov::tags", "video" ]
+	}
+,
+	"namespace" : 	{
+		"hap" : 		{
+			"quantity" : 3,
+			"address" : "hap",
+			"tags" : "video",
+			"inputs" : 1,
+			"outputs" : 1,
+			"filename" : "t_del",
+			"editordim" : [ 1, 1 ],
+			"description" : "standard delay",
+			"path" : "system:/Users/reno/GITs/hap-layer/nodefiles/hap.json",
+			"1" : 			{
+				"init" : 				{
+					"address" : "init",
+					"description" : "initialize module",
+					"class" : "message",
+					"type" : "bang",
+					"value" : "NA"
+				}
+,
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"value" : 0
+				}
+,
+				"file" : 				{
+					"address" : "file",
+					"description" : "read a movie file",
+					"class" : "parameter",
+					"type" : "symbol",
+					"value" : "system:/Users/reno/Movies/hap p/dos.mov"
+				}
+,
+				"play" : 				{
+					"address" : "play",
+					"description" : "play / stop 1 / 0",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"value" : 1
+				}
+,
+				"alpha" : 				{
+					"address" : "alpha",
+					"description" : "opacity",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 0.513082
+				}
+,
+				"frame" : 				{
+					"address" : "frame",
+					"description" : "read a frame",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"initval" : 0,
+					"range" : [ 0, 0 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 0.0
+				}
+,
+				"loop" : 				{
+					"address" : "loop",
+					"mode" : 					{
+						"address" : "mode",
+						"description" : "loop mode",
+						"class" : "parameter",
+						"type" : "symbol",
+						"unit" : "none",
+						"initval" : "Normal"
+					}
+,
+					"in" : 					{
+						"address" : "in",
+						"description" : "loop in point",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "frame",
+						"repetition" : 0,
+						"clipmode" : "both",
+						"ramp" : 1
+					}
+,
+					"out" : 					{
+						"address" : "out",
+						"description" : "loop out point",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "frame",
+						"initval" : 1,
+						"repetition" : 0,
+						"clipmode" : "both",
+						"ramp" : 1
+					}
+,
+					"clear" : 					{
+						"address" : "clear",
+						"description" : "clear loop points",
+						"class" : "message",
+						"type" : "generic"
+					}
+,
+					"value" : "NA"
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 1.0
+				}
+,
+				"flip" : 				{
+					"address" : "flip",
+					"description" : "flip the image",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"value" : 0
+				}
+,
+				"jump" : 				{
+					"address" : "jump",
+					"description" : "jump into a frame",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"initval" : 0,
+					"value" : 0
+				}
+,
+				"rate" : 				{
+					"address" : "rate",
+					"description" : "rate",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"value" : 1
+				}
+
+			}
+,
+			"2" : 			{
+				"init" : 				{
+					"address" : "init",
+					"description" : "initialize module",
+					"class" : "message",
+					"type" : "bang",
+					"value" : "NA"
+				}
+,
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"value" : 0
+				}
+,
+				"file" : 				{
+					"address" : "file",
+					"description" : "read a movie file",
+					"class" : "parameter",
+					"type" : "symbol",
+					"value" : "NA"
+				}
+,
+				"play" : 				{
+					"address" : "play",
+					"description" : "play / stop 1 / 0",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"value" : 0
+				}
+,
+				"alpha" : 				{
+					"address" : "alpha",
+					"description" : "opacity",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 0
+				}
+,
+				"frame" : 				{
+					"address" : "frame",
+					"description" : "read a frame",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"initval" : 0,
+					"range" : [ 0, 0 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 0
+				}
+,
+				"loop" : 				{
+					"address" : "loop",
+					"mode" : 					{
+						"address" : "mode",
+						"description" : "loop mode",
+						"class" : "parameter",
+						"type" : "symbol",
+						"unit" : "none",
+						"initval" : "Normal"
+					}
+,
+					"in" : 					{
+						"address" : "in",
+						"description" : "loop in point",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "frame",
+						"repetition" : 0,
+						"clipmode" : "both",
+						"ramp" : 1
+					}
+,
+					"out" : 					{
+						"address" : "out",
+						"description" : "loop out point",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "frame",
+						"initval" : 1,
+						"repetition" : 0,
+						"clipmode" : "both",
+						"ramp" : 1
+					}
+,
+					"clear" : 					{
+						"address" : "clear",
+						"description" : "clear loop points",
+						"class" : "message",
+						"type" : "generic"
+					}
+,
+					"value" : "NA"
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 1
+				}
+,
+				"flip" : 				{
+					"address" : "flip",
+					"description" : "flip the image",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"value" : 0
+				}
+,
+				"jump" : 				{
+					"address" : "jump",
+					"description" : "jump into a frame",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"initval" : 0,
+					"value" : 0
+				}
+,
+				"rate" : 				{
+					"address" : "rate",
+					"description" : "rate",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"value" : 1
+				}
+
+			}
+,
+			"3" : 			{
+				"init" : 				{
+					"address" : "init",
+					"description" : "initialize module",
+					"class" : "message",
+					"type" : "bang",
+					"value" : "NA"
+				}
+,
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"value" : 0
+				}
+,
+				"file" : 				{
+					"address" : "file",
+					"description" : "read a movie file",
+					"class" : "parameter",
+					"type" : "symbol",
+					"value" : "NA"
+				}
+,
+				"play" : 				{
+					"address" : "play",
+					"description" : "play / stop 1 / 0",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"value" : 0
+				}
+,
+				"alpha" : 				{
+					"address" : "alpha",
+					"description" : "opacity",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 0
+				}
+,
+				"frame" : 				{
+					"address" : "frame",
+					"description" : "read a frame",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"initval" : 0,
+					"range" : [ 0, 0 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 0
+				}
+,
+				"loop" : 				{
+					"address" : "loop",
+					"mode" : 					{
+						"address" : "mode",
+						"description" : "loop mode",
+						"class" : "parameter",
+						"type" : "symbol",
+						"unit" : "none",
+						"initval" : "Normal"
+					}
+,
+					"in" : 					{
+						"address" : "in",
+						"description" : "loop in point",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "frame",
+						"repetition" : 0,
+						"clipmode" : "both",
+						"ramp" : 1
+					}
+,
+					"out" : 					{
+						"address" : "out",
+						"description" : "loop out point",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "frame",
+						"initval" : 1,
+						"repetition" : 0,
+						"clipmode" : "both",
+						"ramp" : 1
+					}
+,
+					"clear" : 					{
+						"address" : "clear",
+						"description" : "clear loop points",
+						"class" : "message",
+						"type" : "generic"
+					}
+,
+					"value" : "NA"
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"value" : 1
+				}
+,
+				"flip" : 				{
+					"address" : "flip",
+					"description" : "flip the image",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"value" : 0
+				}
+,
+				"jump" : 				{
+					"address" : "jump",
+					"description" : "jump into a frame",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"initval" : 0,
+					"value" : 0
+				}
+,
+				"rate" : 				{
+					"address" : "rate",
+					"description" : "rate",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"value" : 1
+				}
+
+			}
+
 		}
 
 	}
 ,
-	"namespace" : 	{
-
-	}
-,
 	"nodes" : 	{
+		"hap" : 		{
+			"address" : "hap",
+			"quantity" : 3,
+			"tags" : "video",
+			"inputs" : 1,
+			"outputs" : 1,
+			"filename" : "t_del",
+			"editordim" : [ 1, 1 ],
+			"description" : "standard delay",
+			"path" : "system:/Users/reno/GITs/hap-layer/nodefiles/hap.json",
+			"init" : 			{
+				"address" : "init",
+				"description" : "initialize module",
+				"class" : "message",
+				"type" : "bang"
+			}
+,
+			"sw" : 			{
+				"address" : "sw",
+				"description" : "on/off switch",
+				"class" : "parameter",
+				"type" : "boolean",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 0
+			}
+,
+			"file" : 			{
+				"address" : "file",
+				"description" : "read a movie file",
+				"class" : "parameter",
+				"type" : "symbol"
+			}
+,
+			"play" : 			{
+				"address" : "play",
+				"description" : "play / stop 1 / 0",
+				"class" : "parameter",
+				"type" : "boolean",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 0
+			}
+,
+			"alpha" : 			{
+				"address" : "alpha",
+				"description" : "opacity",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 1
+			}
+,
+			"frame" : 			{
+				"address" : "frame",
+				"description" : "read a frame",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "frame",
+				"initval" : 0,
+				"range" : [ 0, 0 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 1
+			}
+,
+			"loop" : 			{
+				"address" : "loop",
+				"mode" : 				{
+					"address" : "mode",
+					"description" : "loop mode",
+					"class" : "parameter",
+					"type" : "symbol",
+					"unit" : "none",
+					"initval" : "Normal"
+				}
+,
+				"in" : 				{
+					"address" : "in",
+					"description" : "loop in point",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1
+				}
+,
+				"out" : 				{
+					"address" : "out",
+					"description" : "loop out point",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "frame",
+					"initval" : 1,
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1
+				}
+,
+				"clear" : 				{
+					"address" : "clear",
+					"description" : "clear loop points",
+					"class" : "message",
+					"type" : "generic"
+				}
+
+			}
+,
+			"vol" : 			{
+				"address" : "vol",
+				"description" : "volume",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 1,
+				"range" : [ 0, 2 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 1
+			}
+,
+			"flip" : 			{
+				"address" : "flip",
+				"description" : "flip the image",
+				"class" : "parameter",
+				"type" : "boolean",
+				"unit" : "none",
+				"initval" : 0
+			}
+,
+			"jump" : 			{
+				"address" : "jump",
+				"description" : "jump into a frame",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "frame",
+				"initval" : 0
+			}
+,
+			"rate" : 			{
+				"address" : "rate",
+				"description" : "rate",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 1
+			}
+
+		}
 
 	}
 ,
 	"events" : 	{
+		"pluie" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"hap" : 					{
+						"1" : 						{
+							"sw" : 0,
+							"file" : [ "system:::Users::reno::Movies::hap", "p::dos.mov" ],
+							"frame" : 0,
+							"vol" : 1
+						}
+,
+						"2" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"frame" : 0,
+							"vol" : 1
+						}
+,
+						"3" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"frame" : 0,
+							"vol" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"temp" : 		{
+			"data" : 			{
+				"0" : ""
+			}
+,
+			"tags" : "temp"
+		}
+,
+		"verre" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"hap" : 					{
+						"1" : 						{
+							"sw" : 0,
+							"file" : "system:/Users/reno/Movies/hap p/tres.mov",
+							"play" : 0,
+							"alpha" : 1.0,
+							"frame" : 0.0,
+							"loop" : 							{
+								"mode" : 0.0,
+								"in" : 0.0,
+								"out" : 0.0
+							}
+,
+							"vol" : 1.0
+						}
+,
+						"2" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"play" : 0,
+							"alpha" : 0,
+							"frame" : 0,
+							"loop" : 							{
+								"mode" : 0,
+								"in" : 0,
+								"out" : 0
+							}
+,
+							"vol" : 1
+						}
+,
+						"3" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"play" : 0,
+							"alpha" : 0,
+							"frame" : 0,
+							"loop" : 							{
+								"mode" : 0,
+								"in" : 0,
+								"out" : 0
+							}
+,
+							"vol" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"sablier" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"hap" : 					{
+						"1" : 						{
+							"sw" : 0,
+							"file" : [ "system:::Users::reno::Movies::hap", "p::uno.mov" ],
+							"frame" : 0,
+							"vol" : 1
+						}
+,
+						"2" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"frame" : 0,
+							"vol" : 1
+						}
+,
+						"3" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"frame" : 0,
+							"vol" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"hap" : 					{
+						"1" : 						{
+							"sw" : 0,
+							"file" : [ "system:/Users/reno/Movies/hap", "p/dos.mov" ],
+							"play" : 1,
+							"alpha" : 1.0,
+							"frame" : 0.0,
+							"loop" : 							{
+								"mode" : 0.0,
+								"in" : 0.0,
+								"out" : 0.0
+							}
+,
+							"vol" : 1.0,
+							"flip" : 0,
+							"jump" : 0,
+							"rate" : 1
+						}
+,
+						"2" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"play" : 0,
+							"alpha" : 0,
+							"frame" : 0,
+							"loop" : 							{
+								"mode" : 0,
+								"in" : 0,
+								"out" : 0
+							}
+,
+							"vol" : 1,
+							"flip" : 0,
+							"jump" : 0,
+							"rate" : 1
+						}
+,
+						"3" : 						{
+							"sw" : 0,
+							"file" : "NA",
+							"play" : 0,
+							"alpha" : 0,
+							"frame" : 0,
+							"loop" : 							{
+								"mode" : 0,
+								"in" : 0,
+								"out" : 0
+							}
+,
+							"vol" : 1,
+							"flip" : 0,
+							"jump" : 0,
+							"rate" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
 
 	}
 ,
