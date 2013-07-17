@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 462.0, 199.0, 735.0, 536.0 ],
+		"rect" : [ 80.0, 216.0, 735.0, 536.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -464,7 +464,7 @@
 					"patching_rect" : [ 433.833344, 70.0, 168.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, -1.0, 107.0, 22.0 ],
-					"text" : "#1",
+					"text" : "/hap/1",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -832,7 +832,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-41",
-					"items" : [ "<choose", "a", "file", "to", "play>", ",", "<separator>", ",", "system:/Users/reno/Movies/hap p/dos.mov", ",", "system:/Users/reno/Movies/hap p/tres.mov", ",", "system:/Users/reno/Movies/hap p/uno.mov" ],
+					"items" : [ "<choose", "a", "file", "to", "play>", ",", "<separator>" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1273,21 +1273,6 @@
 					"source" : [ "obj-76", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "var.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/GITs/span/patchers",
-				"patcherrelativepath" : "../../span/patchers",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
