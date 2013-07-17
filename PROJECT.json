@@ -36,8 +36,6 @@
 			"type" : "MooV",
 			"tags" : "/hap/1"
 		}
-,
-		"system:/Users/reno/Movies/hap" : [ "p/uno.mov::tags", "video" ]
 	}
 ,
 	"namespace" : 	{
