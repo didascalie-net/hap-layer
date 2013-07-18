@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2013-07-15T20:21:02",
-		"lastopened" : "2013-07-16T00:20:27",
-		"lastsaved" : "2013-07-16T00:40:40",
+		"lastopened" : "2013-07-18T19:13:47",
+		"lastsaved" : "2013-07-18T19:14:37",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -13,29 +13,118 @@
 	}
 ,
 	"paths" : 	{
-		"system:/Users/reno/GITs/hap-layer/nodefiles/hap.json" : 		{
-			"name" : "hap.json",
-			"type" : "TEXT",
-			"tags" : "node"
-		}
-,
 		"system:/Users/reno/Movies/hap p/dos.mov" : 		{
 			"name" : "dos.mov",
 			"type" : "MooV",
-			"tags" : "/hap/1"
+			"tags" : "/hap/1",
+			"valid" : 0
 		}
 ,
 		"system:/Users/reno/Movies/hap p/tres.mov" : 		{
 			"name" : "tres.mov",
 			"type" : "MooV",
-			"tags" : "/hap/1"
+			"tags" : "/hap/1",
+			"valid" : 0
 		}
 ,
 		"system:/Users/reno/Movies/hap p/uno.mov" : 		{
 			"name" : "uno.mov",
 			"type" : "MooV",
-			"tags" : "/hap/1"
+			"tags" : "/hap/1",
+			"valid" : 0
 		}
+,
+		"work:/Users/reno/Movies/hap/pluie nette loop-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "pluie nette loop-HAP.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/hap/sablier central-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "sablier central-HAP.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/hap/vase berlin loop-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "vase berlin loop-HAP.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/hap/verre brise loop-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "verre brise loop-HAP.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Documents/GITs/hap layer/nodefiles/hap.json" : 		{
+			"valid" : 1,
+			"name" : "hap.json",
+			"type" : "JSON",
+			"tags" : "node"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/" : 		{
+			"valid" : 1,
+			"name" : "photo jpeg",
+			"type" : "fold"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/cloudy.mov" : 		{
+			"valid" : 1,
+			"name" : "cloudy.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/CourVersJar.mov" : 		{
+			"valid" : 1,
+			"name" : "CourVersJar.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/eclair.mov" : 		{
+			"valid" : 1,
+			"name" : "eclair.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/pigeons-.MOV" : 		{
+			"valid" : 1,
+			"name" : "pigeons-.MOV",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/rain.mov" : 		{
+			"valid" : 1,
+			"name" : "rain.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/rca.mov" : 		{
+			"valid" : 1,
+			"name" : "rca.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/Real_8mm_Film.mov" : 		{
+			"valid" : 1,
+			"name" : "Real_8mm_Film.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/redball.mov" : 		{
+			"valid" : 1,
+			"name" : "redball.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/reflet.mov" : 		{
+			"valid" : 1,
+			"name" : "reflet.mov",
+			"type" : "MooV"
+		}
+
 	}
 ,
 	"namespace" : 	{
@@ -77,7 +166,7 @@
 					"description" : "read a movie file",
 					"class" : "parameter",
 					"type" : "symbol",
-					"value" : "system:/Users/reno/Movies/hap p/dos.mov"
+					"value" : "work:/Users/reno/Movies/hap/vase berlin loop-HAP.mov"
 				}
 ,
 				"play" : 				{
@@ -91,7 +180,7 @@
 					"repetition" : 0,
 					"clipmode" : "both",
 					"ramp" : 0,
-					"value" : 1
+					"value" : 0
 				}
 ,
 				"alpha" : 				{
@@ -105,7 +194,7 @@
 					"repetition" : 0,
 					"clipmode" : "both",
 					"ramp" : 1,
-					"value" : 0.513082
+					"value" : 0
 				}
 ,
 				"frame" : 				{
@@ -119,7 +208,7 @@
 					"repetition" : 0,
 					"clipmode" : "both",
 					"ramp" : 1,
-					"value" : 0.0
+					"value" : 0
 				}
 ,
 				"loop" : 				{
@@ -177,7 +266,7 @@
 					"repetition" : 0,
 					"clipmode" : "both",
 					"ramp" : 1,
-					"value" : 1.0
+					"value" : 1
 				}
 ,
 				"flip" : 				{
