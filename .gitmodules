@@ -1,0 +1,3 @@
+[submodule "span"]
+	path = span
+	url = https://github.com/didascalie-net/span.git
