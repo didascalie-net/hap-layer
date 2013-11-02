@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2013-07-15T20:21:02",
-		"lastopened" : "2013-07-18T19:13:47",
-		"lastsaved" : "2013-07-18T19:14:37",
+		"lastopened" : "2013-09-09T14:17:04",
+		"lastsaved" : "2013-09-09T14:20:31",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -13,27 +13,6 @@
 	}
 ,
 	"paths" : 	{
-		"system:/Users/reno/Movies/hap p/dos.mov" : 		{
-			"name" : "dos.mov",
-			"type" : "MooV",
-			"tags" : "/hap/1",
-			"valid" : 0
-		}
-,
-		"system:/Users/reno/Movies/hap p/tres.mov" : 		{
-			"name" : "tres.mov",
-			"type" : "MooV",
-			"tags" : "/hap/1",
-			"valid" : 0
-		}
-,
-		"system:/Users/reno/Movies/hap p/uno.mov" : 		{
-			"name" : "uno.mov",
-			"type" : "MooV",
-			"tags" : "/hap/1",
-			"valid" : 0
-		}
-,
 		"work:/Users/reno/Movies/hap/pluie nette loop-HAP.mov" : 		{
 			"valid" : 1,
 			"name" : "pluie nette loop-HAP.mov",
@@ -123,6 +102,90 @@
 			"valid" : 1,
 			"name" : "reflet.mov",
 			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/alumette crack.mov" : 		{
+			"valid" : 1,
+			"name" : "alumette crack.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/firework flou loop.mov" : 		{
+			"valid" : 1,
+			"name" : "firework flou loop.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/firework net loop.mov" : 		{
+			"valid" : 1,
+			"name" : "firework net loop.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/firework net.mov" : 		{
+			"valid" : 1,
+			"name" : "firework net.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/maque gauche eclats still base.mov" : 		{
+			"valid" : 1,
+			"name" : "maque gauche eclats still base.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/maque gauche eclats.mov" : 		{
+			"valid" : 1,
+			"name" : "maque gauche eclats.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/masque final paillettes.mov" : 		{
+			"valid" : 1,
+			"name" : "masque final paillettes.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/masque flash solo.mov" : 		{
+			"valid" : 1,
+			"name" : "masque flash solo.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/masque flash.mov" : 		{
+			"valid" : 1,
+			"name" : "masque flash.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/masque gauche .mov" : 		{
+			"valid" : 1,
+			"name" : "masque gauche .mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/masque neige.mov" : 		{
+			"valid" : 1,
+			"name" : "masque neige.mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
+		}
+,
+		"work:/Users/reno/Desktop/rendus diner hermes 130701/waterglass 200 .mov" : 		{
+			"valid" : 1,
+			"name" : "waterglass 200 .mov",
+			"type" : "MooV",
+			"tags" : "/hap/1"
 		}
 
 	}
