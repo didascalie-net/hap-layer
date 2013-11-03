@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 75.0, 285.0, 470.0, 575.0 ],
+		"rect" : [ 439.0, 44.0, 470.0, 575.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,13 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 136.0, 398.0, 466.0, 229.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -74,7 +74,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 327.75, 3.086349, 262.5, 88.345184 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 153.908829, 261.5, 82.345184 ]
+									"presentation_rect" : [ 3.0, 4.908829, 261.5, 82.345184 ]
 								}
 
 							}
@@ -89,7 +89,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 60.0, 84.086349, 262.5, 116.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 236.254013, 447.5, 134.0 ]
+									"presentation_rect" : [ 3.0, 87.254013, 447.5, 134.0 ]
 								}
 
 							}
@@ -131,7 +131,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -155,6 +155,17 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 57.0, 40.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -390,6 +401,15 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -427,11 +447,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 305.0, 226.0, 676.0, 480.0 ],
+						"rect" : [ 165.0, 408.0, 676.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -755,7 +775,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/hap/1" ],
+					"args" : [ "/hap.1" ],
 					"border" : 1,
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
@@ -827,11 +847,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 639.0, 392.0, 754.0, 487.0 ],
+						"rect" : [ 130.0, 368.0, 760.0, 299.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -947,7 +967,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -1107,7 +1127,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -1250,7 +1270,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -1464,7 +1484,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"patching_rect" : [ 101.0, 97.0, 103.0, 18.0 ],
-									"text" : "tex_hap /hap/1 1"
+									"text" : "tex_hap /hap.1 1"
 								}
 
 							}
@@ -1553,7 +1573,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -2163,7 +2183,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 5,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -3464,7 +3484,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -3527,7 +3547,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 5,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -5474,23 +5494,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "param.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/misc/reno",
-				"patcherrelativepath" : "../../span/max-package/misc/reno",
+				"name" : "span.param.string.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../span/max-package/patchers/params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
-				"patcherrelativepath" : "../../span/max-package/patchers",
+				"name" : "span.param.bool.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../span/max-package/patchers/params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5505,6 +5518,41 @@
 				"name" : "span.requests.contains.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../../span/max-package/patchers/requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.dec.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.replace.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../../span/max-package/patchers/requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.int.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.message.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
+				"patcherrelativepath" : "../../span/max-package/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5541,13 +5589,6 @@
 				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/javascript",
 				"patcherrelativepath" : "../../span/max-package/javascript",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.replace.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../../span/max-package/patchers/requests",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
