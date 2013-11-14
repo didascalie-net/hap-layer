@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 441.0, 76.0, 831.0, 795.0 ],
+		"rect" : [ 389.0, 204.0, 831.0, 795.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -78,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.5, 459.960205, 112.0, 20.0 ],
+					"patching_rect" : [ 454.0, 341.960205, 112.0, 20.0 ],
 					"text" : "prepend loopreport"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 251.5, 434.0, 157.0, 20.0 ],
+					"patching_rect" : [ 454.0, 316.0, 157.0, 20.0 ],
 					"text" : "span.param.bool loopreport"
 				}
 
@@ -102,13 +102,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
-					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 574.0, 32.367767, 114.0, 33.0 ],
-					"text" : "span.node-and-instance #1"
+					"patching_rect" : [ 577.0, 14.0, 193.0, 20.0 ],
+					"text" : "span.node #1"
 				}
 
 			}
@@ -136,20 +135,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 231.0, 165.0, 50.0, 18.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 574.0, 7.0, 66.0, 20.0 ],
-					"text" : "r /span/init"
 				}
 
 			}
@@ -800,15 +785,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1351,6 +1327,81 @@
 					"source" : [ "obj-83", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "span.param.string.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
+				"patcherrelativepath" : "../../../bulle-musicale/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.replace.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../../../span/max-package/patchers/requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.contains.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../../../span/max-package/patchers/requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.bool.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.getval.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../../../span/max-package/patchers/requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.dec.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.int.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.message.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../../span/max-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.node.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/misc/reno",
+				"patcherrelativepath" : "../../../span/max-package/misc/reno",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.hap.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
