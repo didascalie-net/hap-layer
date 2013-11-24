@@ -1,0 +1,675 @@
+{
+	"projectinfo" : 	{
+		"created" : "2013-11-24T12:17:21",
+		"lastopened" : "",
+		"lastsaved" : "2013-11-24T12:37:16",
+		"appname" : "span",
+		"appversion" : 		{
+			"major" : 0,
+			"minor" : 0,
+			"revision" : 1
+		}
+
+	}
+,
+	"paths" : 	{
+		"work:/Users/reno/Movies/hap/briquet-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "briquet-HAP.mov",
+			"type" : "MooV",
+			"tags" : "/hap.1"
+		}
+,
+		"work:/Users/reno/Movies/hap/pluie nette loop-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "pluie nette loop-HAP.mov",
+			"type" : "MooV",
+			"tags" : "/hap.1"
+		}
+,
+		"work:/Users/reno/Movies/hap/sablier central-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "sablier central-HAP.mov",
+			"type" : "MooV",
+			"tags" : "/hap.1"
+		}
+,
+		"work:/Users/reno/Movies/hap/vase berlin loop-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "vase berlin loop-HAP.mov",
+			"type" : "MooV",
+			"tags" : "/hap.1"
+		}
+,
+		"work:/Users/reno/Movies/hap/verre brise loop-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "verre brise loop-HAP.mov",
+			"type" : "MooV",
+			"tags" : "/hap.1"
+		}
+,
+		"work:/Users/reno/Movies/hap/waterglass 200 .mov" : 		{
+			"valid" : 1,
+			"name" : "waterglass 200 .mov",
+			"type" : "MooV",
+			"tags" : "/hap.1"
+		}
+
+	}
+,
+	"namespace" : 	{
+		"hap" : 		{
+			"1" : 			{
+				"jump" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"frame" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"range" : [ 0, 0 ],
+					"clipmode" : "none",
+					"ramp" : 1,
+					"rampfunction" : "none",
+					"value" : 0.0
+				}
+,
+				"rate" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"range" : [ 0, 0 ],
+					"clipmode" : "none",
+					"ramp" : 1,
+					"rampfunction" : "none",
+					"value" : 3.094059
+				}
+,
+				"flip" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 1,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 1
+				}
+,
+				"loop/mode" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"loop/out" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"loop/in" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"alpha" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"range" : [ 0, 0 ],
+					"clipmode" : "none",
+					"ramp" : 1,
+					"rampfunction" : "none",
+					"value" : 1.0
+				}
+,
+				"play" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 1,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 1
+				}
+,
+				"file" : 				{
+					"class" : "parameter",
+					"type" : "string",
+					"unit" : "none",
+					"initval" : "<none>",
+					"value" : "work:/Users/reno/Movies/hap/vase berlin loop-HAP.mov"
+				}
+,
+				"loop" : 				{
+					"out" : 					{
+						"value" : 98300
+					}
+,
+					"mode" : 					{
+						"value" : 0
+					}
+,
+					"in" : 					{
+						"value" : 89500
+					}
+
+				}
+,
+				"layer" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"2" : 			{
+				"jump" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"frame" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"range" : [ 0, 0 ],
+					"clipmode" : "none",
+					"ramp" : 1,
+					"rampfunction" : "none",
+					"value" : 0.0
+				}
+,
+				"rate" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"range" : [ 0, 0 ],
+					"clipmode" : "none",
+					"ramp" : 1,
+					"rampfunction" : "none",
+					"value" : 0.0
+				}
+,
+				"flip" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 1,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"loop/mode" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"loop/out" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"loop/in" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"alpha" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"range" : [ 0, 0 ],
+					"clipmode" : "none",
+					"ramp" : 1,
+					"rampfunction" : "none",
+					"value" : 1.0
+				}
+,
+				"play" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 1,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"file" : 				{
+					"class" : "parameter",
+					"type" : "string",
+					"unit" : "none",
+					"initval" : "<none>",
+					"value" : "work:/Users/reno/Movies/hap/waterglass 200 .mov"
+				}
+,
+				"layer" : 				{
+					"description" : "none",
+					"class" : "parameter",
+					"type" : "integer",
+					"unit" : "none",
+					"initval" : 0,
+					"repetition" : 1,
+					"clipmode" : "none",
+					"range" : [ 0, 0 ],
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"loop" : 				{
+					"out" : 					{
+						"value" : 45552
+					}
+,
+					"mode" : 					{
+						"value" : 0
+					}
+,
+					"in" : 					{
+						"value" : 45552
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+,
+	"nodes" : 	{
+
+	}
+,
+	"events" : 	{
+		"pluie" : 		{
+			"tags" : "undefined",
+			"description" : "singing in the rain :)",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap.1 ----------",
+					"/hap.1/jump" : 0,
+					"/hap.1/frame" : 0,
+					"/hap.1/vol" : 0.0,
+					"/hap.1/rate" : 3.292,
+					"/hap.1/flip" : 1,
+					"// 1" : "---------- /hap.1/loop ----------",
+					"/hap.1/loop/mode" : 0,
+					"/hap.1/loop/out" : 89500,
+					"/hap.1/loop/in" : 89500,
+					"// 2" : "---------- /hap.1 ----------",
+					"/hap.1/alpha" : 0
+				}
+,
+				"1" : 				{
+					"/hap.1/alpha" : [ 1.0, 1000 ],
+					"/hap.1/play" : 1,
+					"/hap.1/file" : "work:/Users/reno/Movies/hap/pluie nette loop-HAP.mov"
+				}
+
+			}
+,
+			"cuesheet" : 40
+		}
+,
+		"vase" : 		{
+			"tags" : "undefined",
+			"description" : "Berlin calling",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap.1 ----------",
+					"/hap.1/jump" : 0,
+					"/hap.1/frame" : 0,
+					"/hap.1/vol" : 0.0,
+					"/hap.1/rate" : 3.094059,
+					"/hap.1/flip" : 1,
+					"// 1" : "---------- /hap.1/loop ----------",
+					"/hap.1/loop/mode" : 0,
+					"/hap.1/loop/out" : 98300,
+					"/hap.1/loop/in" : 89500,
+					"// 2" : "---------- /hap.1 ----------",
+					"/hap.1/alpha" : 1.0,
+					"/hap.1/play" : 1,
+					"/hap.1/file" : "work:/Users/reno/Movies/hap/vase berlin loop-HAP.mov"
+				}
+
+			}
+,
+			"cuesheet" : 20
+		}
+,
+		"briquet" : 		{
+			"tags" : 0,
+			"description" : "C'est la flamme finaaaale !!!",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap.1 ----------",
+					"/hap.1/jump" : 0,
+					"/hap.1/frame" : 0,
+					"/hap.1/vol" : 0.0,
+					"/hap.1/rate" : 1.163366,
+					"/hap.1/flip" : 1,
+					"// 1" : "---------- /hap.1/loop ----------",
+					"/hap.1/loop/mode" : 0,
+					"/hap.1/loop/out" : 43800,
+					"/hap.1/loop/in" : 89500,
+					"// 2" : "---------- /hap.1 ----------",
+					"/hap.1/alpha" : 1.0,
+					"/hap.1/play" : 1,
+					"/hap.1/file" : "work:/Users/reno/Movies/hap/briquet-HAP.mov"
+				}
+
+			}
+,
+			"cuesheet" : 60
+		}
+,
+		"sablier" : 		{
+			"tags" : "undefined",
+			"description" : "Aix Time",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap.1 ----------",
+					"/hap.1/jump" : 0,
+					"/hap.1/frame" : 0,
+					"/hap.1/vol" : 0.0,
+					"/hap.1/rate" : 5.0,
+					"/hap.1/flip" : 1,
+					"// 1" : "---------- /hap.1/loop ----------",
+					"/hap.1/loop/mode" : 0,
+					"/hap.1/loop/out" : 64000,
+					"/hap.1/loop/in" : 89500,
+					"// 2" : "---------- /hap.1 ----------",
+					"/hap.1/alpha" : 1.0,
+					"/hap.1/play" : 1,
+					"/hap.1/file" : "work:/Users/reno/Movies/hap/sablier central-HAP.mov"
+				}
+
+			}
+,
+			"cuesheet" : 120
+		}
+,
+		"water glass" : 		{
+			"tags" : "undefined",
+			"description" : "Cristal lake",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap.1 ----------",
+					"/hap.1/jump" : 0,
+					"/hap.1/frame" : 0,
+					"/hap.1/vol" : 0.0,
+					"/hap.1/rate" : 2.153465,
+					"/hap.1/flip" : 1,
+					"// 1" : "---------- /hap.1/loop ----------",
+					"/hap.1/loop/mode" : 0,
+					"/hap.1/loop/out" : 45552,
+					"/hap.1/loop/in" : 89500,
+					"// 2" : "---------- /hap.1 ----------",
+					"/hap.1/alpha" : 1.0,
+					"/hap.1/play" : 1,
+					"/hap.1/file" : "work:/Users/reno/Movies/hap/waterglass 200 .mov"
+				}
+
+			}
+,
+			"cuesheet" : 999
+		}
+,
+		"2013-11-24T11:16:18" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap.1 ----------",
+					"/hap.1/jump" : 0,
+					"/hap.1/frame" : 0,
+					"/hap.1/vol" : 0.0,
+					"/hap.1/rate" : 2.153465,
+					"/hap.1/flip" : 1,
+					"// 1" : "---------- /hap.1/loop ----------",
+					"/hap.1/loop/mode" : 0,
+					"/hap.1/loop/out" : 45552,
+					"/hap.1/loop/in" : 89500,
+					"// 2" : "---------- /hap.1 ----------",
+					"/hap.1/alpha" : 1.0,
+					"/hap.1/play" : 1,
+					"/hap.1/file" : "work:/Users/reno/Movies/hap/waterglass 200 .mov",
+					"// 3" : "---------- /hap.2 ----------",
+					"/hap.2/jump" : 0,
+					"/hap.2/frame" : 0,
+					"/hap.2/vol" : 0,
+					"/hap.2/rate" : 0,
+					"/hap.2/flip" : 0,
+					"// 4" : "---------- /hap.2/loop ----------",
+					"/hap.2/loop/mode" : 0,
+					"/hap.2/loop/out" : 0,
+					"/hap.2/loop/in" : 0,
+					"// 5" : "---------- /hap.2 ----------",
+					"/hap.2/alpha" : 0,
+					"/hap.2/play" : 0,
+					"/hap.2/file" : 0
+				}
+
+			}
+
+		}
+,
+		"aboth" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap.1 ----------",
+					"/hap.1/jump" : 0,
+					"/hap.1/frame" : 0,
+					"/hap.1/vol" : 0.0,
+					"/hap.1/rate" : 3.292,
+					"/hap.1/flip" : 1,
+					"// 1" : "---------- /hap.1/loop ----------",
+					"/hap.1/loop/mode" : 0,
+					"/hap.1/loop/out" : 64000,
+					"/hap.1/loop/in" : 89500,
+					"// 2" : "---------- /hap.1 ----------",
+					"/hap.1/alpha" : 0.405152,
+					"/hap.1/play" : 1,
+					"/hap.1/file" : "work:/Users/reno/Movies/hap/sablier central-HAP.mov",
+					"/hap.1/layer" : 0,
+					"// 3" : "---------- /hap.2 ----------",
+					"/hap.2/jump" : 0,
+					"/hap.2/frame" : 0,
+					"/hap.2/vol" : 0.0,
+					"/hap.2/rate" : 0.0,
+					"/hap.2/flip" : 0,
+					"// 4" : "---------- /hap.2/loop ----------",
+					"/hap.2/loop/mode" : 0,
+					"/hap.2/loop/out" : 45552,
+					"/hap.2/loop/in" : 45552,
+					"// 5" : "---------- /hap.2 ----------",
+					"/hap.2/alpha" : 1.0,
+					"/hap.2/play" : 0,
+					"/hap.2/file" : "work:/Users/reno/Movies/hap/waterglass 200 .mov",
+					"/hap.2/layer" : 0
+				}
+
+			}
+,
+			"cuesheet" : 2
+		}
+
+	}
+,
+	"system" : 	{
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"namespace" : 			{
+
+			}
+,
+			"nodes" : 			{
+
+			}
+,
+			"events" : 			{
+
+			}
+,
+			"system" : "projectstructure"
+		}
+
+	}
+
+}
