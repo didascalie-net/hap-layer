@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
-		"created" : "2013-11-25T13:01:15",
+		"created" : "2013-11-25T13:37:16",
 		"lastopened" : "",
-		"lastsaved" : "2013-11-25T13:01:15",
+		"lastsaved" : "2013-11-25T13:37:28",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -53,6 +53,12 @@
 			"name" : "waterglass 200 .mov",
 			"type" : "MooV",
 			"tags" : "/hap.1"
+		}
+,
+		"system:/Users/reno/Movies/fumée slowmo.mov" : 		{
+			"valid" : 1,
+			"name" : "fumée slowmo.mov",
+			"type" : "MooV"
 		}
 
 	}
