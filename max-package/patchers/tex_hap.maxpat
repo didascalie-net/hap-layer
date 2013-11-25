@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -50,7 +50,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 398.0, 422.0, 119.0, 20.0 ],
 					"text" : "span.param.int layer"
 				}
@@ -80,8 +80,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.5, 422.0, 125.0, 20.0 ],
-					"text" : "span.param.enum file"
+					"patching_rect" : [ 250.5, 422.0, 141.0, 20.0 ],
+					"text" : "span.param.enum blend"
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 878.5, 86.960205, 122.0, 20.0 ],
 					"text" : "span.param.int dim/y"
 				}
@@ -138,7 +138,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 756.5, 86.960205, 122.0, 20.0 ],
 					"text" : "span.param.int dim/x"
 				}
@@ -159,7 +159,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -216,7 +216,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 853.5, 101.757202, 161.0, 20.0 ],
 									"text" : "span.param.bool loop/report"
 								}
@@ -245,7 +245,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 1027.5, 101.757202, 157.0, 20.0 ],
 									"text" : "span.param.bool loopreport"
 								}
@@ -303,7 +303,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 94.0, 101.757202, 136.0, 20.0 ],
 									"text" : "span.param.int loop/out"
 								}
@@ -318,7 +318,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 53.5, 77.0, 129.0, 20.0 ],
 									"text" : "span.param.int loop/in"
 								}
@@ -347,7 +347,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 236.0, 101.757202, 149.0, 20.0 ],
 									"text" : "span.param.int loop/mode"
 								}
@@ -376,7 +376,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 718.5, 101.757202, 119.0, 20.0 ],
 									"text" : "span.param.int jump"
 								}
@@ -405,7 +405,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 567.5, 101.757202, 124.0, 20.0 ],
 									"text" : "span.param.int frame"
 								}
@@ -671,7 +671,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -838,7 +838,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 470.0, 86.960205, 119.0, 20.0 ],
 					"text" : "span.param.bool flip"
 				}
@@ -966,7 +966,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.0, 86.960205, 125.0, 20.0 ],
 					"text" : "span.param.bool play"
 				}
