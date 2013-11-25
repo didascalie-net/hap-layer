@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
-		"created" : "2013-11-24T12:17:21",
+		"created" : "2013-11-25T12:57:33",
 		"lastopened" : "",
-		"lastsaved" : "2013-11-24T12:37:16",
+		"lastsaved" : "2013-11-25T12:57:33",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -14,42 +14,42 @@
 ,
 	"paths" : 	{
 		"work:/Users/reno/Movies/hap/briquet-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "briquet-HAP.mov",
 			"type" : "MooV",
 			"tags" : "/hap.1"
 		}
 ,
 		"work:/Users/reno/Movies/hap/pluie nette loop-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "pluie nette loop-HAP.mov",
 			"type" : "MooV",
 			"tags" : "/hap.1"
 		}
 ,
 		"work:/Users/reno/Movies/hap/sablier central-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "sablier central-HAP.mov",
 			"type" : "MooV",
 			"tags" : "/hap.1"
 		}
 ,
 		"work:/Users/reno/Movies/hap/vase berlin loop-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "vase berlin loop-HAP.mov",
 			"type" : "MooV",
 			"tags" : "/hap.1"
 		}
 ,
 		"work:/Users/reno/Movies/hap/verre brise loop-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "verre brise loop-HAP.mov",
 			"type" : "MooV",
 			"tags" : "/hap.1"
 		}
 ,
 		"work:/Users/reno/Movies/hap/waterglass 200 .mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "waterglass 200 .mov",
 			"type" : "MooV",
 			"tags" : "/hap.1"
