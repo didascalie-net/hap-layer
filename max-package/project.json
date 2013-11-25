@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
-		"created" : "2013-11-25T12:57:33",
+		"created" : "2013-11-25T13:01:15",
 		"lastopened" : "",
-		"lastsaved" : "2013-11-25T12:57:33",
+		"lastsaved" : "2013-11-25T13:01:15",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -454,8 +454,7 @@
 				}
 
 			}
-,
-			"cuesheet" : 40
+
 		}
 ,
 		"vase" : 		{
@@ -480,8 +479,7 @@
 				}
 
 			}
-,
-			"cuesheet" : 20
+
 		}
 ,
 		"briquet" : 		{
@@ -506,8 +504,7 @@
 				}
 
 			}
-,
-			"cuesheet" : 60
+
 		}
 ,
 		"sablier" : 		{
@@ -532,8 +529,7 @@
 				}
 
 			}
-,
-			"cuesheet" : 120
+
 		}
 ,
 		"water glass" : 		{
@@ -558,8 +554,7 @@
 				}
 
 			}
-,
-			"cuesheet" : 999
+
 		}
 ,
 		"2013-11-24T11:16:18" : 		{
@@ -639,8 +634,7 @@
 				}
 
 			}
-,
-			"cuesheet" : 2
+
 		}
 
 	}
