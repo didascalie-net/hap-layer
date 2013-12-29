@@ -1,0 +1,167 @@
+{
+    "hap": {
+        "address": "hap",
+        "quantity": 3,
+        "tags": "video",
+        "inputs": 1,
+        "outputs": 1,
+        "filename": "t_del",
+        "editordim": [
+            1,
+            1
+        ],
+        "description": "standard delay",
+        "path": "",
+        "init": {
+            "address": "init",
+            "description": "initialize module",
+            "class": "message",
+            "type": "bang"
+        },
+        "sw": {
+            "address": "sw",
+            "description": "on/off switch",
+            "class": "parameter",
+            "type": "boolean",
+            "unit": "none",
+            "initval": 0,
+            "range": [
+                0,
+                1
+            ],
+            "repetition": 0,
+            "clipmode": "both",
+            "ramp": 0
+        },
+        "file": {
+            "address": "file",
+            "description": "read a movie file",
+            "class": "parameter",
+            "type": "symbol"
+        },
+        "play": {
+            "address": "play",
+            "description": "play / stop 1 / 0",
+            "class": "parameter",
+            "type": "boolean",
+            "unit": "none",
+            "initval": 0,
+            "range": [
+                0,
+                1
+            ],
+            "repetition": 0,
+            "clipmode": "both",
+            "ramp": 0
+        },
+        "alpha": {
+            "address": "alpha",
+            "description": "opacity",
+            "class": "parameter",
+            "type": "decimal",
+            "unit": "none",
+            "initval": 0,
+            "range": [
+                0,
+                1
+            ],
+            "repetition": 0,
+            "clipmode": "both",
+            "ramp": 1
+        },
+        "frame": {
+            "address": "frame",
+            "description": "read a frame",
+            "class": "parameter",
+            "type": "decimal",
+            "unit": "frame",
+            "initval": 0,
+            "range": [
+                0,
+                0
+            ],
+            "repetition": 0,
+            "clipmode": "both",
+            "ramp": 1
+        },
+        "loop": {
+            "address": "loop",
+            "mode": {
+                "address": "mode",
+                "description": "loop mode",
+                "class": "parameter",
+                "type": "symbol",
+                "unit": "none",
+                "initval": "Normal"
+            },
+            "in": {
+                "address": "in",
+                "description": "loop in point",
+                "class": "parameter",
+                "type": "decimal",
+                "unit": "frame",
+                "repetition": 0,
+                "clipmode": "both",
+                "ramp": 1
+            },
+            "out": {
+                "address": "out",
+                "description": "loop out point",
+                "class": "parameter",
+                "type": "decimal",
+                "unit": "frame",
+                "initval": 1,
+                "repetition": 0,
+                "clipmode": "both",
+                "ramp": 1
+            },
+            "clear": {
+                "address": "clear",
+                "description": "clear loop points",
+                "class": "message",
+                "type": "generic"
+            }
+        },
+        "vol": {
+            "address": "vol",
+            "description": "volume",
+            "class": "parameter",
+            "type": "decimal",
+            "unit": "none",
+            "initval": 1,
+            "range": [
+                0,
+                2
+            ],
+            "repetition": 0,
+            "clipmode": "both",
+            "ramp": 1
+        },
+    "flip": {
+        "address": "flip",
+        "description": "flip the image",
+        "class": "parameter",
+        "type": "boolean",
+        "unit": "none",
+        "initval": 0
+    }
+    ,
+        "jump": {
+        "address": "jump",
+        "description": "jump into a frame",
+        "class": "parameter",
+        "type": "decimal",
+        "unit": "frame",
+        "initval": 0
+    }
+    ,
+        "rate": {
+        "address": "rate",
+        "description": "rate",
+        "class": "parameter",
+        "type": "decimal",
+        "unit": "none",
+        "initval": 1
+    }    
+}
+}
