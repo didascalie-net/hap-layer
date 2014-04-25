@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2013-11-25T13:37:16",
-		"lastopened" : "2014-01-07T15:50:49",
-		"lastsaved" : "2014-01-07T15:50:49",
+		"lastopened" : "2014-04-25T20:38:34",
+		"lastsaved" : "2014-04-25T20:38:34",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -56,9 +56,91 @@
 		}
 ,
 		"system:/Users/reno/Movies/fumée slowmo.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "fumée slowmo.mov",
 			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/" : 		{
+			"valid" : 1,
+			"name" : "photo jpeg",
+			"type" : "fold"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/briquet-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "briquet-HAP.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/cloudy.mov" : 		{
+			"valid" : 1,
+			"name" : "cloudy.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/CourVersJar.mov" : 		{
+			"valid" : 1,
+			"name" : "CourVersJar.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/eclair.mov" : 		{
+			"valid" : 1,
+			"name" : "eclair.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/pigeons-.MOV" : 		{
+			"valid" : 1,
+			"name" : "pigeons-.MOV",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/pluie nette loop-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "pluie nette loop-HAP.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/rain.mov" : 		{
+			"valid" : 1,
+			"name" : "rain.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/rca.mov" : 		{
+			"valid" : 1,
+			"name" : "rca.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/Real_8mm_Film.mov" : 		{
+			"valid" : 1,
+			"name" : "Real_8mm_Film.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/redball.mov" : 		{
+			"valid" : 1,
+			"name" : "redball.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/reflet.mov" : 		{
+			"valid" : 1,
+			"name" : "reflet.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg/sablier central-HAP.mov" : 		{
+			"valid" : 1,
+			"name" : "sablier central-HAP.mov",
+			"type" : "MooV"
+		}
+,
+		"work:/Users/reno/Movies/photo jpeg" : 		{
+			"valid" : 1
 		}
 
 	}
@@ -66,359 +148,1034 @@
 	"namespace" : 	{
 		"hap" : 		{
 			"1" : 			{
-				"jump" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
+				"blend" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
 				}
 ,
-				"frame" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+				"dim" : 				{
+					"x" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
 ,
-				"vol" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "decimal",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"range" : [ 0, 0 ],
-					"clipmode" : "none",
-					"ramp" : 1,
-					"rampfunction" : "none",
-					"value" : 0.0
-				}
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
 ,
-				"rate" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "decimal",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"range" : [ 0, 0 ],
-					"clipmode" : "none",
-					"ramp" : 1,
-					"rampfunction" : "none",
-					"value" : 3.094059
-				}
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
 ,
-				"flip" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "boolean",
-					"unit" : "none",
-					"initval" : 0,
-					"range" : [ 0, 1 ],
-					"repetition" : 1,
-					"clipmode" : "both",
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 1
-				}
+						"repetitions" : 						{
+							"filter" : ""
+						}
 ,
-				"loop/mode" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
 ,
-				"loop/out" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+					"y" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
 ,
-				"loop/in" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
 ,
-				"alpha" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "decimal",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"range" : [ 0, 0 ],
-					"clipmode" : "none",
-					"ramp" : 1,
-					"rampfunction" : "none",
-					"value" : 1.0
-				}
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
 ,
-				"play" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "boolean",
-					"unit" : "none",
-					"initval" : 0,
-					"range" : [ 0, 1 ],
-					"repetition" : 1,
-					"clipmode" : "both",
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 1
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+
 				}
 ,
 				"file" : 				{
-					"class" : "parameter",
-					"type" : "string",
-					"unit" : "none",
-					"initval" : "<none>",
-					"value" : "work:/Users/reno/Movies/hap/vase berlin loop-HAP.mov"
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : "work:/Users/reno/Movies/photo jpeg/pluie nette loop-HAP.mov"
 				}
 ,
-				"loop" : 				{
-					"out" : 					{
-						"value" : 98300
+				"flip" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
 					}
 ,
-					"mode" : 					{
-						"value" : 0
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
 					}
 ,
-					"in" : 					{
-						"value" : 89500
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"frame" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"jump" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
 					}
 
 				}
 ,
 				"layer" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"loop" : 				{
+					"clear" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
+,
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+,
+					"in" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
+,
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+,
+					"mode" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
+,
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+,
+					"out" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
+,
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+
+				}
+,
+				"loopreport" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"model" : 				{
+					"address" : "",
+					"bypass" : "",
+					"class" : ""
+				}
+,
+				"opacity" : 				{
+					"value" : 1.0
+				}
+,
+				"play" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"preset" : "",
+				"rate" : 				{
+					"value" : 					{
+						"default" : "",
+						"stepsize" : ""
+					}
+
+				}
+,
+				"vol" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
 				}
 
 			}
 ,
 			"2" : 			{
-				"jump" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
+				"blend" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 3
 				}
 ,
-				"frame" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+				"dim" : 				{
+					"x" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
 ,
-				"vol" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "decimal",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"range" : [ 0, 0 ],
-					"clipmode" : "none",
-					"ramp" : 1,
-					"rampfunction" : "none",
-					"value" : 0.0
-				}
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
 ,
-				"rate" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "decimal",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"range" : [ 0, 0 ],
-					"clipmode" : "none",
-					"ramp" : 1,
-					"rampfunction" : "none",
-					"value" : 0.0
-				}
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
 ,
-				"flip" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "boolean",
-					"unit" : "none",
-					"initval" : 0,
-					"range" : [ 0, 1 ],
-					"repetition" : 1,
-					"clipmode" : "both",
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+						"repetitions" : 						{
+							"filter" : ""
+						}
 ,
-				"loop/mode" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
 ,
-				"loop/out" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+					"y" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
 ,
-				"loop/in" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
-				}
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
 ,
-				"alpha" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "decimal",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"range" : [ 0, 0 ],
-					"clipmode" : "none",
-					"ramp" : 1,
-					"rampfunction" : "none",
-					"value" : 1.0
-				}
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
 ,
-				"play" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "boolean",
-					"unit" : "none",
-					"initval" : 0,
-					"range" : [ 0, 1 ],
-					"repetition" : 1,
-					"clipmode" : "both",
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+
 				}
 ,
 				"file" : 				{
-					"class" : "parameter",
-					"type" : "string",
-					"unit" : "none",
-					"initval" : "<none>",
-					"value" : "work:/Users/reno/Movies/hap/waterglass 200 .mov"
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : "work:/Users/reno/Movies/photo jpeg/briquet-HAP.mov"
+				}
+,
+				"flip" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"frame" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"jump" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
 				}
 ,
 				"layer" : 				{
-					"description" : "none",
-					"class" : "parameter",
-					"type" : "integer",
-					"unit" : "none",
-					"initval" : 0,
-					"repetition" : 1,
-					"clipmode" : "none",
-					"range" : [ 0, 0 ],
-					"ramp" : 0,
-					"rampfunction" : "none",
-					"value" : 0
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
 				}
 ,
 				"loop" : 				{
-					"out" : 					{
-						"value" : 45552
-					}
+					"clear" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
 ,
-					"mode" : 					{
-						"value" : 0
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
 					}
 ,
 					"in" : 					{
-						"value" : 45552
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
+,
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+,
+					"mode" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
+,
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+,
+					"out" : 					{
+						"active" : "",
+						"bypass" : "",
+						"dataspace" : 						{
+							"unit" : ""
+						}
+,
+						"description" : "",
+						"priority" : "",
+						"ramp" : 						{
+							"drive" : "",
+							"function" : "",
+							"status" : ""
+						}
+,
+						"range" : 						{
+							"bounds" : "",
+							"clipmode" : ""
+						}
+,
+						"repetitions" : 						{
+							"filter" : ""
+						}
+,
+						"service" : "",
+						"tag" : "",
+						"type" : "",
+						"value" : 						{
+							"stepsize" : ""
+						}
+
+					}
+
+				}
+,
+				"loopreport" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"model" : 				{
+					"address" : "",
+					"bypass" : "",
+					"class" : ""
+				}
+,
+				"opacity" : 				{
+					"value" : 0.674289
+				}
+,
+				"play" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
+					}
+
+				}
+,
+				"preset" : "",
+				"rate" : 				{
+					"value" : 					{
+						"default" : "",
+						"stepsize" : ""
+					}
+
+				}
+,
+				"vol" : 				{
+					"active" : "",
+					"bypass" : "",
+					"dataspace" : 					{
+						"unit" : ""
+					}
+,
+					"description" : "",
+					"priority" : "",
+					"ramp" : 					{
+						"drive" : "",
+						"function" : "",
+						"status" : ""
+					}
+,
+					"range" : 					{
+						"bounds" : "",
+						"clipmode" : ""
+					}
+,
+					"repetitions" : 					{
+						"filter" : ""
+					}
+,
+					"service" : "",
+					"tag" : "",
+					"type" : "",
+					"value" : 					{
+						"stepsize" : ""
 					}
 
 				}
@@ -637,6 +1394,18 @@
 					"/hap.2/play" : 0,
 					"/hap.2/file" : "work:/Users/reno/Movies/hap/waterglass 200 .mov",
 					"/hap.2/layer" : 0
+				}
+
+			}
+
+		}
+,
+		"botha" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+
 				}
 
 			}
