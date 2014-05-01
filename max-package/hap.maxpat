@@ -60,33 +60,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 348.0, 340.247955, 100.0, 20.0 ],
-					"text" : "print ##"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 348.0, 304.747955, 49.0, 20.0 ],
-					"text" : "j.model"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "none",
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
@@ -129,36 +102,6 @@
 					"patching_rect" : [ 2.5, 213.908813, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 211.908813, 455.0, 181.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "none",
-					"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
-					"fontname" : "Helvetica Light",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 318.5, 195.378052, 112.0, 18.0 ],
-					"text" : "j.tex_hap /layer.2 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "none",
-					"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
-					"fontname" : "Helvetica Light",
-					"fontsize" : 12.0,
-					"id" : "obj-84",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 318.5, 168.378052, 111.0, 18.0 ],
-					"text" : "j.tex_hap /layer.1 1"
 				}
 
 			}
@@ -3308,6 +3251,63 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 168.0, 98.1931, 100.0, 20.0 ],
+									"text" : "print ##"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 168.0, 69.5, 49.0, 20.0 ],
+									"text" : "j.model"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "none",
+									"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
+									"fontname" : "Helvetica Light",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.0, 64.5, 112.0, 18.0 ],
+									"text" : "j.tex_hap /layer.2 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "none",
+									"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
+									"fontname" : "Helvetica Light",
+									"fontsize" : 12.0,
+									"id" : "obj-84",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.0, 37.5, 111.0, 18.0 ],
+									"text" : "j.tex_hap /layer.1 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 18.0,
 									"frgb" : 0.0,
 									"id" : "obj-28",
@@ -3356,7 +3356,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 106.0, 69.5, 68.0, 20.0 ],
+									"patching_rect" : [ 91.0, 39.0, 68.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -3372,7 +3372,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 106.0, 37.5, 111.0, 20.0 ],
+									"patching_rect" : [ 91.0, 7.0, 111.0, 20.0 ],
 									"text" : "r /hap-layer/engine"
 								}
 
@@ -4389,6 +4389,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -4413,7 +4422,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p engine",
+					"text" : "p hap",
 					"varname" : "engine"
 				}
 
@@ -4487,15 +4496,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.tex_hap.view.maxpat",
@@ -4535,14 +4535,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
@@ -4560,6 +4552,14 @@
 			}
 , 			{
 				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
  ]
