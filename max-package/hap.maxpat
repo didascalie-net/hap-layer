@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 469.0, 47.0, 455.0, 348.0 ],
+		"rect" : [ 469.0, 44.0, 540.0, 562.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,141 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "none",
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 59.0, 408.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 120.0, 408.0, 162.0, 20.0 ],
+					"text" : "j.remote /hap/layer.1/opacity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 348.0, 340.247955, 100.0, 20.0 ],
+					"text" : "print ##"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 348.0, 304.747955, 49.0, 20.0 ],
+					"text" : "j.model"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 100.0, 327.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 100.0, 360.0, 143.0, 20.0 ],
+					"text" : "j.send hap/layer.1/opacity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "hap/layer.2" ],
+					"border" : 1,
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "j.tex_hap.view.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.5, 213.908813, 300.0, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2.5, 211.908813, 455.0, 181.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
+					"fontname" : "Helvetica Light",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 318.5, 195.378052, 112.0, 18.0 ],
+					"text" : "j.tex_hap /layer.2 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
+					"fontname" : "Helvetica Light",
+					"fontsize" : 12.0,
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 318.5, 168.378052, 111.0, 18.0 ],
+					"text" : "j.tex_hap /layer.1 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.0, 0.572549, 0.0, 1.0 ],
 					"fontname" : "Arial",
@@ -760,14 +895,14 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-16",
-																	"items" : [ "active", ",", "bypass", ",", "dataspace", ",", "dataspace/unit", ",", "description", ",", "priority", ",", "ramp/drive", ",", "ramp/function", ",", "ramp/function/parameters", ",", "ramp/status", ",", "range/bounds", ",", "range/clipmode", ",", "repetitions/filter", ",", "service", ",", "tag", ",", "type", ",", "value", ",", "value/default", ",", "value/stepsize" ],
+																	"items" : [ "address", ",", "bypass", ",", "current", ",", "current/position", ",", "names", ",", "value" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 165.5, 141.851196, 71.5, 20.0 ],
-																	"prefix" : "/hap.2/vol:"
+																	"prefix" : "/hap/preset:"
 																}
 
 															}
@@ -1115,14 +1250,14 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-6",
-																	"items" : [ "blend", ",", "dim", ",", "dim/x", ",", "dim/y", ",", "file", ",", "flip", ",", "frame", ",", "jump", ",", "layer", ",", "loop", ",", "loop/clear", ",", "loop/in", ",", "loop/mode", ",", "loop/out", ",", "loopreport", ",", "model", ",", "opacity", ",", "play", ",", "preset", ",", "rate", ",", "vol" ],
+																	"items" : [ "layer.1", ",", "layer.1/autostart", ",", "layer.1/blend", ",", "layer.1/dim", ",", "layer.1/dim/x", ",", "layer.1/dim/y", ",", "layer.1/file", ",", "layer.1/flip", ",", "layer.1/frame", ",", "layer.1/jump", ",", "layer.1/layer", ",", "layer.1/loop", ",", "layer.1/loop/clear", ",", "layer.1/loop/in", ",", "layer.1/loop/mode", ",", "layer.1/loop/out", ",", "layer.1/loopreport", ",", "layer.1/model", ",", "layer.1/opacity", ",", "layer.1/play", ",", "layer.1/preset", ",", "layer.1/rate", ",", "layer.1/vol", ",", "layer.2", ",", "layer.2/autostart", ",", "layer.2/blend", ",", "layer.2/dim", ",", "layer.2/dim/x", ",", "layer.2/dim/y", ",", "layer.2/file", ",", "layer.2/flip", ",", "layer.2/frame", ",", "layer.2/jump", ",", "layer.2/layer", ",", "layer.2/loop", ",", "layer.2/loop/clear", ",", "layer.2/loop/in", ",", "layer.2/loop/mode", ",", "layer.2/loop/out", ",", "layer.2/loopreport", ",", "layer.2/model", ",", "layer.2/opacity", ",", "layer.2/play", ",", "layer.2/preset", ",", "layer.2/rate", ",", "layer.2/vol", ",", "model", ",", "preset" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 686.0, 194.851227, 192.5, 20.0 ],
-																	"prefix" : "/hap.2/"
+																	"prefix" : "/hap/"
 																}
 
 															}
@@ -1307,14 +1442,14 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-3",
-																	"items" : [ "blend", ",", "dim", ",", "dim/x", ",", "dim/y", ",", "file", ",", "flip", ",", "frame", ",", "jump", ",", "layer", ",", "loop", ",", "loop/clear", ",", "loop/in", ",", "loop/mode", ",", "loop/out", ",", "loopreport", ",", "model", ",", "opacity", ",", "play", ",", "preset", ",", "rate", ",", "vol" ],
+																	"items" : [ "layer.1", ",", "layer.1/autostart", ",", "layer.1/blend", ",", "layer.1/dim", ",", "layer.1/dim/x", ",", "layer.1/dim/y", ",", "layer.1/file", ",", "layer.1/flip", ",", "layer.1/frame", ",", "layer.1/jump", ",", "layer.1/layer", ",", "layer.1/loop", ",", "layer.1/loop/clear", ",", "layer.1/loop/in", ",", "layer.1/loop/mode", ",", "layer.1/loop/out", ",", "layer.1/loopreport", ",", "layer.1/model", ",", "layer.1/opacity", ",", "layer.1/play", ",", "layer.1/preset", ",", "layer.1/rate", ",", "layer.1/vol", ",", "layer.2", ",", "layer.2/autostart", ",", "layer.2/blend", ",", "layer.2/dim", ",", "layer.2/dim/x", ",", "layer.2/dim/y", ",", "layer.2/file", ",", "layer.2/flip", ",", "layer.2/frame", ",", "layer.2/jump", ",", "layer.2/layer", ",", "layer.2/loop", ",", "layer.2/loop/clear", ",", "layer.2/loop/in", ",", "layer.2/loop/mode", ",", "layer.2/loop/out", ",", "layer.2/loopreport", ",", "layer.2/model", ",", "layer.2/opacity", ",", "layer.2/play", ",", "layer.2/preset", ",", "layer.2/rate", ",", "layer.2/vol", ",", "model", ",", "preset" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 349.0, 194.851227, 192.5, 20.0 ],
-																	"prefix" : "/hap.2/"
+																	"prefix" : "/hap/"
 																}
 
 															}
@@ -1513,14 +1648,14 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-11",
-																	"items" : [ "blend", ",", "dim", ",", "dim/x", ",", "dim/y", ",", "file", ",", "flip", ",", "frame", ",", "jump", ",", "layer", ",", "loop", ",", "loop/clear", ",", "loop/in", ",", "loop/mode", ",", "loop/out", ",", "loopreport", ",", "model", ",", "opacity", ",", "play", ",", "preset", ",", "rate", ",", "vol" ],
+																	"items" : [ "layer.1", ",", "layer.1/autostart", ",", "layer.1/blend", ",", "layer.1/dim", ",", "layer.1/dim/x", ",", "layer.1/dim/y", ",", "layer.1/file", ",", "layer.1/flip", ",", "layer.1/frame", ",", "layer.1/jump", ",", "layer.1/layer", ",", "layer.1/loop", ",", "layer.1/loop/clear", ",", "layer.1/loop/in", ",", "layer.1/loop/mode", ",", "layer.1/loop/out", ",", "layer.1/loopreport", ",", "layer.1/model", ",", "layer.1/opacity", ",", "layer.1/play", ",", "layer.1/preset", ",", "layer.1/rate", ",", "layer.1/vol", ",", "layer.2", ",", "layer.2/autostart", ",", "layer.2/blend", ",", "layer.2/dim", ",", "layer.2/dim/x", ",", "layer.2/dim/y", ",", "layer.2/file", ",", "layer.2/flip", ",", "layer.2/frame", ",", "layer.2/jump", ",", "layer.2/layer", ",", "layer.2/loop", ",", "layer.2/loop/clear", ",", "layer.2/loop/in", ",", "layer.2/loop/mode", ",", "layer.2/loop/out", ",", "layer.2/loopreport", ",", "layer.2/model", ",", "layer.2/opacity", ",", "layer.2/play", ",", "layer.2/preset", ",", "layer.2/rate", ",", "layer.2/vol", ",", "model", ",", "preset" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 12.0, 194.851227, 192.5, 20.0 ],
-																	"prefix" : "/hap.2/"
+																	"prefix" : "/hap/"
 																}
 
 															}
@@ -2160,14 +2295,14 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-6",
-													"items" : [ "hap.1", ",", "hap.2" ],
+													"items" : "hap",
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 45.0, 122.479172, 171.5, 20.0 ],
-													"prefix" : "work:/"
+													"prefix" : "system:/"
 												}
 
 											}
@@ -3104,22 +3239,6 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
-					"args" : [ "/hap.2" ],
-					"border" : 1,
-					"id" : "obj-13",
-					"maxclass" : "bpatcher",
-					"name" : "j.tex_hap.view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 210.5, 262.5, 144.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 189.908813, 447.5, 151.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
@@ -3150,6 +3269,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"color" : [ 0.0, 0.697581, 0.21119, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -3166,7 +3286,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 475.0, 435.0, 366.0, 267.0 ],
+						"rect" : [ 468.0, 468.0, 366.0, 267.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3196,21 +3316,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 217.0, 1.626022, 142.0, 27.0 ],
 									"text" : "Open GL engine"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"annotation" : "none",
-									"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
-									"fontname" : "Helvetica Light",
-									"fontsize" : 12.0,
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 234.5, 72.378067, 107.0, 18.0 ],
-									"text" : "j.tex_hap /hap.2 2"
 								}
 
 							}
@@ -4128,21 +4233,6 @@
 							}
 , 							{
 								"box" : 								{
-									"annotation" : "none",
-									"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
-									"fontname" : "Helvetica Light",
-									"fontsize" : 12.0,
-									"id" : "obj-84",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 234.5, 45.378067, 107.0, 18.0 ],
-									"text" : "j.tex_hap /hap.1 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-6",
 									"maxclass" : "toggle",
 									"numinlets" : 1,
@@ -4347,21 +4437,39 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "/hap.1" ],
+					"args" : [ "hap/layer.1" ],
 					"border" : 1,
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
 					"name" : "j.tex_hap.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 59.5, 262.5, 144.0 ],
+					"patching_rect" : [ 15.0, 59.5, 454.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 31.908813, 447.5, 151.0 ]
+					"presentation_rect" : [ 2.5, 30.908813, 455.0, 181.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
@@ -4370,32 +4478,43 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.tex_hap.view.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/hap-layer/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/hap-layer/max-package/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../../span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
+				"patcherrelativepath" : "../../bulle musicale/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.tex_hap.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/hap-layer/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/hap-layer/max-package/patchers",
 				"patcherrelativepath" : "./patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4409,6 +4528,18 @@
 			}
 , 			{
 				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.gl.syphonserver.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -4429,18 +4560,6 @@
 			}
 , 			{
 				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.gl.syphonserver.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
  ]
