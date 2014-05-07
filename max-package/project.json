@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2013-11-25T13:37:16",
-		"lastopened" : "2014-04-25T20:38:34",
-		"lastsaved" : "2014-04-25T20:38:34",
+		"lastopened" : "2014-05-02T15:03:25",
+		"lastsaved" : "2014-05-02T15:03:25",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -1181,6 +1181,693 @@
 				}
 
 			}
+,
+			"layer" : 			{
+				"1" : 				{
+					"alias" : "bang",
+					"bypass" : 0,
+					"content" : [ "autostart", "blend", "dim::x", "dim::y", "file", "flip", "frame", "jump", "layer", "loop::clear", "loop::in", "loop::mode", "loop::out", "loopreport", "model", "opacity", "play", "preset", "rate", "vol" ],
+					"description" : [ "A", "simple", "video", "player", "using", "codec", "HAP" ],
+					"priority" : 0,
+					"service" : "model",
+					"tag" : "instance",
+					"autostart" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"blend" : 					{
+						"value" : 						{
+							"default" : "alphablend"
+						}
+
+					}
+,
+					"dim" : 					{
+						"x" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "Max",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0, 1 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "parameter",
+							"tag" : "none",
+							"type" : "integer",
+							"value" : 							{
+								"stepsize" : 1
+							}
+
+						}
+,
+						"y" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "Max",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0, 1 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "parameter",
+							"tag" : "none",
+							"type" : "integer",
+							"value" : 							{
+								"stepsize" : 1
+							}
+
+						}
+
+					}
+,
+					"file" : 					{
+						"value" : 						{
+							"default" : "<none>"
+						}
+
+					}
+,
+					"flip" : 					{
+						"value" : 						{
+							"default" : 0,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"frame" : 					{
+						"active" : 1,
+						"bypass" : 0,
+						"dataspace" : 						{
+							"unit" : "none"
+						}
+,
+						"description" : "none",
+						"priority" : 0,
+						"ramp" : 						{
+							"drive" : "Max",
+							"function" : "none",
+							"status" : 0
+						}
+,
+						"range" : 						{
+							"bounds" : [ 0, 1 ],
+							"clipmode" : "none"
+						}
+,
+						"repetitions" : 						{
+							"filter" : 0
+						}
+,
+						"service" : "message",
+						"tag" : "none",
+						"type" : "integer",
+						"value" : 						{
+							"stepsize" : 1
+						}
+
+					}
+,
+					"jump" : 					{
+						"active" : 1,
+						"bypass" : 0,
+						"dataspace" : 						{
+							"unit" : "none"
+						}
+,
+						"description" : "none",
+						"priority" : 0,
+						"ramp" : 						{
+							"drive" : "Max",
+							"function" : "none",
+							"status" : 0
+						}
+,
+						"range" : 						{
+							"bounds" : [ 0, 1 ],
+							"clipmode" : "none"
+						}
+,
+						"repetitions" : 						{
+							"filter" : 0
+						}
+,
+						"service" : "message",
+						"tag" : "none",
+						"type" : "integer",
+						"value" : 						{
+							"stepsize" : 1
+						}
+
+					}
+,
+					"layer" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"loop" : 					{
+						"clear" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "none",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0.0, 1.0 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "message",
+							"tag" : "none",
+							"type" : "generic",
+							"value" : 							{
+								"stepsize" : 0.1
+							}
+
+						}
+,
+						"in" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "Max",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0, 1 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "parameter",
+							"tag" : "none",
+							"type" : "integer",
+							"value" : 							{
+								"stepsize" : 1
+							}
+
+						}
+,
+						"mode" : 						{
+							"value" : 							{
+								"default" : 1,
+								"stepsize" : 1
+							}
+
+						}
+,
+						"out" : 						{
+							"value" : 							{
+								"default" : 15000,
+								"stepsize" : 1
+							}
+
+						}
+
+					}
+,
+					"loopreport" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"model" : 					{
+						"address" : "::hap::layer.1",
+						"bypass" : 0,
+						"class" : "tex_hap"
+					}
+,
+					"opacity" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 0.1
+						}
+
+					}
+,
+					"play" : 					{
+						"value" : 						{
+							"default" : 0,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"preset" : [ 1, "bang" ],
+					"rate" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 0.1
+						}
+
+					}
+,
+					"vol" : 					{
+						"value" : 						{
+							"default" : 0,
+							"stepsize" : 0.1
+						}
+
+					}
+
+				}
+,
+				"2" : 				{
+					"alias" : "bang",
+					"bypass" : 0,
+					"content" : [ "autostart", "blend", "dim::x", "dim::y", "file", "flip", "frame", "jump", "layer", "loop::clear", "loop::in", "loop::mode", "loop::out", "loopreport", "model", "opacity", "play", "preset", "rate", "vol" ],
+					"description" : [ "A", "simple", "video", "player", "using", "codec", "HAP" ],
+					"priority" : 0,
+					"service" : "model",
+					"tag" : "instance",
+					"autostart" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"blend" : 					{
+						"value" : 						{
+							"default" : "alphablend"
+						}
+
+					}
+,
+					"dim" : 					{
+						"x" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "Max",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0, 1 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "parameter",
+							"tag" : "none",
+							"type" : "integer",
+							"value" : 							{
+								"stepsize" : 1
+							}
+
+						}
+,
+						"y" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "Max",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0, 1 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "parameter",
+							"tag" : "none",
+							"type" : "integer",
+							"value" : 							{
+								"stepsize" : 1
+							}
+
+						}
+
+					}
+,
+					"file" : 					{
+						"value" : 						{
+							"default" : "<none>"
+						}
+
+					}
+,
+					"flip" : 					{
+						"value" : 						{
+							"default" : 0,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"frame" : 					{
+						"active" : 1,
+						"bypass" : 0,
+						"dataspace" : 						{
+							"unit" : "none"
+						}
+,
+						"description" : "none",
+						"priority" : 0,
+						"ramp" : 						{
+							"drive" : "Max",
+							"function" : "none",
+							"status" : 0
+						}
+,
+						"range" : 						{
+							"bounds" : [ 0, 1 ],
+							"clipmode" : "none"
+						}
+,
+						"repetitions" : 						{
+							"filter" : 0
+						}
+,
+						"service" : "message",
+						"tag" : "none",
+						"type" : "integer",
+						"value" : 						{
+							"stepsize" : 1
+						}
+
+					}
+,
+					"jump" : 					{
+						"active" : 1,
+						"bypass" : 0,
+						"dataspace" : 						{
+							"unit" : "none"
+						}
+,
+						"description" : "none",
+						"priority" : 0,
+						"ramp" : 						{
+							"drive" : "Max",
+							"function" : "none",
+							"status" : 0
+						}
+,
+						"range" : 						{
+							"bounds" : [ 0, 1 ],
+							"clipmode" : "none"
+						}
+,
+						"repetitions" : 						{
+							"filter" : 0
+						}
+,
+						"service" : "message",
+						"tag" : "none",
+						"type" : "integer",
+						"value" : 						{
+							"stepsize" : 1
+						}
+
+					}
+,
+					"layer" : 					{
+						"value" : 						{
+							"default" : 2,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"loop" : 					{
+						"clear" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "none",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0.0, 1.0 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "message",
+							"tag" : "none",
+							"type" : "generic",
+							"value" : 							{
+								"stepsize" : 0.1
+							}
+
+						}
+,
+						"in" : 						{
+							"active" : 1,
+							"bypass" : 0,
+							"dataspace" : 							{
+								"unit" : "none"
+							}
+,
+							"description" : "none",
+							"priority" : 0,
+							"ramp" : 							{
+								"drive" : "Max",
+								"function" : "none",
+								"status" : 0
+							}
+,
+							"range" : 							{
+								"bounds" : [ 0, 1 ],
+								"clipmode" : "none"
+							}
+,
+							"repetitions" : 							{
+								"filter" : 0
+							}
+,
+							"service" : "parameter",
+							"tag" : "none",
+							"type" : "integer",
+							"value" : 							{
+								"stepsize" : 1
+							}
+
+						}
+,
+						"mode" : 						{
+							"value" : 							{
+								"default" : 1,
+								"stepsize" : 1
+							}
+
+						}
+,
+						"out" : 						{
+							"value" : 							{
+								"default" : 89500,
+								"stepsize" : 1
+							}
+
+						}
+
+					}
+,
+					"loopreport" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"model" : 					{
+						"address" : "::hap::layer.2",
+						"bypass" : 0,
+						"class" : "tex_hap"
+					}
+,
+					"opacity" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 0.1
+						}
+
+					}
+,
+					"play" : 					{
+						"value" : 						{
+							"default" : 0,
+							"stepsize" : 1
+						}
+
+					}
+,
+					"preset" : [ 1, "bang" ],
+					"rate" : 					{
+						"value" : 						{
+							"default" : 1,
+							"stepsize" : 0.1
+						}
+
+					}
+,
+					"vol" : 					{
+						"value" : 						{
+							"default" : 0,
+							"stepsize" : 0.1
+						}
+
+					}
+
+				}
+,
+				"value" : 2
+			}
+,
+			"model" : 			{
+				"address" : "::hap",
+				"bypass" : 0,
+				"class" : [ "hap", "layer" ]
+			}
+,
+			"autostart" : 			{
+				"value" : 1
+			}
+,
+			"blend" : 			{
+				"value" : "alphablend"
+			}
+,
+			"file" : 			{
+				"value" : "<none>"
+			}
+,
+			"flip" : 			{
+				"value" : 0
+			}
+,
+			"loop" : 			{
+				"mode" : 				{
+					"value" : 1
+				}
+,
+				"out" : 				{
+					"value" : 89500
+				}
+
+			}
+,
+			"loopreport" : 			{
+				"value" : 1
+			}
+,
+			"opacity" : 			{
+				"value" : 1
+			}
+,
+			"play" : 			{
+				"value" : 0
+			}
+,
+			"rate" : 			{
+				"value" : 1
+			}
+,
+			"vol" : 			{
+				"value" : 0
+			}
 
 		}
 
@@ -1405,6 +2092,57 @@
 			"description" : "Describe event here...",
 			"data" : 			{
 				"0" : 				{
+
+				}
+
+			}
+
+		}
+,
+		"cheaez" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+
+				}
+
+			}
+
+		}
+,
+		"blend" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /hap/layer.1/dim ----------",
+					"/hap/layer.1/dim/x" : 					{
+						"stepsize" : 1
+					}
+,
+					"/hap/layer.1/dim/y" : 					{
+						"stepsize" : 1
+					}
+,
+					"// 1" : "---------- /hap/layer.1/loop ----------",
+					"/hap/layer.1/loop/in" : 					{
+						"stepsize" : 1
+					}
+,
+					"// 2" : "---------- /hap/layer.2/dim ----------",
+					"/hap/layer.2/dim/x" : 					{
+						"stepsize" : 1
+					}
+,
+					"/hap/layer.2/dim/y" : 					{
+						"stepsize" : 1
+					}
+,
+					"// 3" : "---------- /hap/layer.2/loop ----------",
+					"/hap/layer.2/loop/in" : 					{
+						"stepsize" : 1
+					}
 
 				}
 

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 469.0, 44.0, 466.0, 400.0 ],
+		"rect" : [ 469.0, 44.0, 468.0, 214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -92,22 +92,6 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "hap/layer.2" ],
-					"border" : 1,
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "j.tex_hap.view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.5, 213.908813, 300.0, 70.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 211.908813, 455.0, 181.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "none",
 					"color" : [ 0.0, 0.572549, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -124,7 +108,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 959.0, 311.0, 506.0, 360.0 ],
+						"rect" : [ 959.0, 311.0, 516.0, 369.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -151,8 +135,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 404.25, 260.135559, 34.0, 20.0 ],
-									"text" : "print"
+									"patching_rect" : [ 379.5, 181.470352, 105.0, 20.0 ],
+									"text" : "print ##EVENT##"
 								}
 
 							}
@@ -354,7 +338,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 79.343689, 299.65741, 208.270874, 47.0 ],
+									"patching_rect" : [ 79.343689, 303.081055, 208.270874, 47.0 ],
 									"text" : "i need to put my models in a patcher to be able to gave a choosen parent name (name of the device)"
 								}
 
@@ -378,7 +362,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 425.0, 322.0, 682.0, 475.0 ],
+										"rect" : [ 472.0, 290.0, 637.0, 444.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -400,19 +384,6 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-54",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 187.0, 344.479187, 100.0, 20.0 ],
-													"text" : "print ##ddddddd"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
 													"fontsize" : 18.0,
 													"frgb" : 0.0,
 													"id" : "obj-52",
@@ -420,7 +391,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 125.0, 262.479187, 153.0, 27.0 ],
-													"presentation_rect" : [ 120.0, 260.540771, 0.0, 0.0 ],
 													"text" : "jamoma feedback"
 												}
 
@@ -435,7 +405,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 466.0, 198.540771, 153.0, 27.0 ],
-													"presentation_rect" : [ 450.5, 201.0, 0.0, 0.0 ],
 													"text" : "jamoma feedback"
 												}
 
@@ -711,7 +680,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 21.0, 96.394104, 110.0, 47.0 ],
-													"presentation_rect" : [ 14.5, 218.479187, 0.0, 0.0 ],
 													"text" : "combine namespace:: data @triggers 1"
 												}
 
@@ -726,7 +694,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 455.5, 300.0, 168.0, 27.0 ],
-													"presentation_rect" : [ 389.0, 25.695374, 0.0, 0.0 ],
 													"text" : "my jamoma models"
 												}
 
@@ -770,7 +737,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 21.0, 243.479187, 98.0, 20.0 ],
-													"text" : "prepend replace"
+													"text" : "prepend set"
 												}
 
 											}
@@ -807,7 +774,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 75.0, 119.0, 259.0, 271.0 ],
+														"rect" : [ 349.0, 119.0, 259.0, 271.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -827,6 +794,20 @@
 														"digest" : "",
 														"tags" : "",
 														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-1",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 5,
+																	"outlettype" : [ "", "", "", "", "" ],
+																	"patching_rect" : [ 22.0, 110.562256, 76.0, 20.0 ],
+																	"text" : "regexp ::(.+)"
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
@@ -934,6 +915,15 @@
  ],
 														"lines" : [ 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-31", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-1", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-3", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -988,19 +978,19 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-27", 0 ],
+																	"destination" : [ "obj-1", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-8", 1 ]
+																	"source" : [ "obj-8", 0 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-31", 0 ],
+																	"destination" : [ "obj-27", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"source" : [ "obj-8", 0 ]
+																	"source" : [ "obj-8", 1 ]
 																}
 
 															}
@@ -1153,7 +1143,7 @@
 											}
 , 											{
 												"box" : 												{
-													"annotation" : "none",
+													"annotation" : "A simple video player using codec HAP",
 													"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
 													"fontname" : "Helvetica Light",
 													"fontsize" : 12.0,
@@ -1161,14 +1151,14 @@
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 0,
-													"patching_rect" : [ 12.5, 346.479187, 112.0, 18.0 ],
+													"patching_rect" : [ 12.5, 346.479187, 111.0, 18.0 ],
 													"text" : "j.tex_hap /layer.2 2"
 												}
 
 											}
 , 											{
 												"box" : 												{
-													"annotation" : "none",
+													"annotation" : "A simple video player using codec HAP",
 													"color" : [ 0.0, 0.688935, 0.023814, 1.0 ],
 													"fontname" : "Helvetica Light",
 													"fontsize" : 12.0,
@@ -1201,8 +1191,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 4.5, 5.977844, 291.0, 289.0 ],
-													"presentation_rect" : [ 0.5, 11.0, 0.0, 0.0 ]
+													"patching_rect" : [ 4.5, 5.977844, 291.0, 289.0 ]
 												}
 
 											}
@@ -1214,8 +1203,7 @@
 													"maxclass" : "panel",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 301.5, 5.977844, 322.0, 289.0 ],
-													"presentation_rect" : [ 288.0, 156.0, 0.0, 0.0 ]
+													"patching_rect" : [ 301.5, 5.977844, 322.0, 289.0 ]
 												}
 
 											}
@@ -1361,7 +1349,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 20.979126, 313.15741, 47.0, 22.0 ],
+									"patching_rect" : [ 20.979126, 316.581055, 47.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Helvetica Neue Light Italic",
@@ -1431,6 +1419,19 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 159.0, 269.0, 100.0, 20.0 ],
+													"text" : "print ##"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"color" : [ 0.287314, 0.64218, 0.203541, 1.0 ],
 													"fontname" : "Arial",
@@ -3521,7 +3522,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 43.0, 131.479172, 171.5, 20.0 ],
-													"prefix" : "system:/"
+													"prefix" : "work:/"
 												}
 
 											}
@@ -3618,6 +3619,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-55", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-58", 0 ]
 												}
 
 											}
@@ -3981,7 +3991,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 290.860596, 291.0, 64.593628 ]
+									"patching_rect" : [ 3.0, 294.284241, 291.0, 64.593628 ]
 								}
 
 							}
@@ -5426,7 +5436,6 @@
 , 			{
 				"box" : 				{
 					"annotation" : "none",
-					"args" : [ "hap/layer.1" ],
 					"border" : 1,
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
@@ -5479,31 +5488,39 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.tex_hap.view.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/hap-layer/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/hap-layer/max-package/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
-				"patcherrelativepath" : "../../bulle musicale/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../../span/max-package/patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.tex_hap.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/hap-layer/max-package/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/hap-layer/max-package/patchers",
 				"patcherrelativepath" : "./patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jsproperties.js",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
-				"patcherrelativepath" : "../../bulle musicale/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/javascript",
+				"patcherrelativepath" : "../../span/max-package/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.remote.mxo",
@@ -5519,14 +5536,6 @@
 			}
 , 			{
 				"name" : "jit.gl.syphonserver.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
