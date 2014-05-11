@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2013-11-25T13:37:16",
-		"lastopened" : "2014-05-02T15:03:25",
-		"lastsaved" : "2014-05-02T15:03:25",
+		"lastopened" : "2014-05-09T14:51:02",
+		"lastsaved" : "2014-05-09T14:51:02",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -62,85 +62,105 @@
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "photo jpeg",
 			"type" : "fold"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/briquet-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "briquet-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/cloudy.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "cloudy.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/CourVersJar.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "CourVersJar.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/eclair.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "eclair.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/pigeons-.MOV" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "pigeons-.MOV",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/pluie nette loop-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "pluie nette loop-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/rain.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "rain.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/rca.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "rca.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/Real_8mm_Film.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "Real_8mm_Film.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/redball.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "redball.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/reflet.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "reflet.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg/sablier central-HAP.mov" : 		{
-			"valid" : 1,
+			"valid" : 0,
 			"name" : "sablier central-HAP.mov",
 			"type" : "MooV"
 		}
 ,
 		"work:/Users/reno/Movies/photo jpeg" : 		{
-			"valid" : 1
+			"valid" : 0
+		}
+,
+		"new:/Users/reno/Movies/fumée slowmo.mov" : 		{
+			"valid" : 1,
+			"name" : "fumée slowmo.mov",
+			"type" : "MooV",
+			"tags" : "hap.1"
+		}
+,
+		"new:/Users/reno/Movies/montage TNS meta crop.mov" : 		{
+			"valid" : 1,
+			"name" : "montage TNS meta crop.mov",
+			"type" : "MooV",
+			"tags" : "hap.1"
+		}
+,
+		"new:/Users/reno/Movies/montage TNS levels.mov" : 		{
+			"valid" : 1,
+			"name" : "montage TNS levels.mov",
+			"type" : "MooV"
 		}
 
 	}
