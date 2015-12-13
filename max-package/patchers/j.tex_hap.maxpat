@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 895.5, 329.039795, 95.0, 18.0 ],
-					"text" : "value/default $1"
+					"text" : "default $1"
 				}
 
 			}
@@ -361,7 +361,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 898.75, 130.960205, 123.0, 47.0 ],
-					"text" : "j.parameter autostart @type boolean @value/default 1"
+					"text" : "j.parameter autostart @type boolean @default 1"
 				}
 
 			}
@@ -453,7 +453,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 103.0, 108.166672, 115.0, 31.0 ],
-									"text" : "value/default $1, range/bounds 0 $1"
+									"text" : "default $1, range 0 $1"
 								}
 
 							}
@@ -506,7 +506,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 871.5, 163.666672, 171.0, 33.0 ],
-									"text" : "j.parameter loopreport @type boolean @value/default 1"
+									"text" : "j.parameter loopreport @type boolean @default 1"
 								}
 
 							}
@@ -610,7 +610,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 245.0, 121.166672, 302.0, 20.0 ],
-									"text" : "j.parameter loop/mode @type integer @value/default 1"
+									"text" : "j.parameter loop/mode @type integer @default 1"
 								}
 
 							}
@@ -918,7 +918,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 303.5, 350.039795, 436.0, 33.0 ],
-					"text" : "j.parameter blend @type string @range/bounds add multiply screen exclusion colorblend alphablend coloradd alphaadd @value/default alphablend"
+					"text" : "j.parameter blend @type string @range add multiply screen exclusion colorblend alphablend coloradd alphaadd @default alphablend"
 				}
 
 			}
@@ -1159,7 +1159,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 694.5, 387.039795, 300.0, 20.0 ],
-					"text" : "j.parameter opacity @type decimal @value/default 1"
+					"text" : "j.parameter opacity @type decimal @default 1"
 				}
 
 			}
@@ -1216,7 +1216,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 523.0, 8.960205, 148.5, 33.0 ],
-					"text" : "j.parameter flip @type boolean @value/default 0"
+					"text" : "j.parameter flip @type boolean @default 0"
 				}
 
 			}
@@ -1245,7 +1245,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 350.5, 8.960205, 143.0, 33.0 ],
-					"text" : "j.parameter rate @type decimal @value/default 1"
+					"text" : "j.parameter rate @type decimal @default 1"
 				}
 
 			}
@@ -1303,7 +1303,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 209.0, 8.960205, 106.0, 47.0 ],
-					"text" : "j.parameter play @type boolean @value/default 0"
+					"text" : "j.parameter play @type boolean @default 0"
 				}
 
 			}
@@ -1334,7 +1334,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 71.5, 8.960205, 122.5, 60.0 ],
-					"text" : "j.parameter file @type string @value/default <none>"
+					"text" : "j.parameter file @type string @default <none>"
 				}
 
 			}
@@ -1578,7 +1578,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 677.5, 8.960205, 120.0, 47.0 ],
-					"text" : "j.parameter vol @type decimal @value/default 0"
+					"text" : "j.parameter vol @type decimal @default 0"
 				}
 
 			}
